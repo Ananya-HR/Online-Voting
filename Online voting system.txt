@@ -1,0 +1,12 @@
+
+
+Online voting System
+
+The Project is developed for the threat free and user oriented Online Voting System. The Online Voting system is made for the people of the country residing around the world and wants to vote for their representative. The election can be conducted in two ways the paper ballot election and the automated ballot elections.
+
+The automated ballot elections are called the electronic voting. The online voting system is highly developed and the online polling system can be replaced by accurately and directly voting online and immediate results. The online voting system is done by the internet so it can be called the Internet Voting. 
+
+The Electronic Ballot Marker makes the voter more easy to vote by providing the selections on the display to vote present on the electronic machine. 
+
+In this project we will be using HTML and CSS for Frontend.PHP for backend and the database will be mySql.
+
