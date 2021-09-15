@@ -5,32 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <title>Online Voting System</title>
+    <title>Document</title>
 </head>
-<body class="loginbody">
+<body>
     <header>
-        <h1 id="Heading">Online Voting System</h1>
+        
+        <h1 id="Heading"> Vote Online</h1>
+        <button id="login"><a href="./index.html">Sign In</a></button>
+        
     </header>
 
-    <form id="loginpage">
-        <h1>Login</h1>
-        <label>User Name</label>
-        <input type="text" placeholder="Enter Name">
-        <br>
-        <label>Password</label>
-        <input type="text" placeholder="Enter password">
-        <br>
-        <label>Mobile</label>
-        <input type="text" placeholder="Enter P.no">
-        <br>
-        <select style="margin-top: 1vw;">
-            <option>Voter</option>
-            <option>Group</option>
-        </select>
-        <br>
-        <button style="margin-top: 1vw; background-color: yellow;">Login</button>
-        <h3>New user ? <a href="./Register.html">Register Here</a></h3>
-    </form>
+    <div class="body">
+        <div>
+            <p>This is developed for the threat free and user oriented Online Voting System. 
+                The Online Voting system is made for the people of the country residing around the world and wants to vote for their representative.
+                 The election can be conducted in two ways the paper ballot election and the automated ballot elections.</p>
+
+            <p>The automated ballot elections are called the electronic voting. 
+                The online voting system is highly developed and the online polling system can be replaced by accurately and directly voting online and immediate results. 
+                The online voting system is done by the internet so it can be called the Internet Voting. </p>
+
+          
+                
+                <p id="info">The Electronic Ballot Marker makes the voter more easy to vote by providing the selections on the display to vote present on the electronic machine. </p>
+                
+               
+                
+                <p>The electronic ballots are connected with the central ballot systems which directly accept and get the updated record of all ballots. 
+                The central ballot system applies the Precinct count method which calculates the all votes from the ballots present at polling centers. 
+                The results are immediate. </p>
+                
+            
+        </div>
+        
+        <div class="clearfix">
+        <img id="image" src="data:image/jpeg;base64,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">
+
+        <form id="form">
+            <h3>SignIn</h3>
+            <br>
+            <input type="text" placeholder="Name">
+            <br><br>
+            <input type="number" placeholder="Enter P.Number">
+            <br><br>
+            <input type="password" placeholder="Enter Password">
+            <br><br>
+            <button style="background-color: yellow;">SignIn</button>
+        </form>
+        </div>
+    </div>
 
 </body>
 </html>
